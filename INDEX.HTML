@@ -2,49 +2,150 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>인카금융서비스 나트랑 연수 가이드</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>영천 피플라이프 나트랑 연수 가이드</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+        body { font-family: 'Noto Sans KR', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .schedule-line::before { content: ''; position: absolute; left: 16px; top: 28px; bottom: -8px; width: 2px; bg-color: #E5E7EB; }
+        .schedule-item:last-child .schedule-line::before { display: none; }
+        /* Smooth scrolling */
+        html { scroll-behavior: smooth; }
+        /* Safe area inset for modern phones */
+        .safe-area-bottom { padding-bottom: calc(env(safe-area-inset-bottom) + 60px); }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
-    <header class="bg-blue-900 text-white p-6 text-center shadow-lg">
-        <h1 class="text-xl font-bold">인카금융서비스(INCAR)</h1>
-        <p class="text-sm opacity-80">2026 나트랑 인센티브 트립 가이드</p>
-    </header>
+<body class="bg-gray-100 text-gray-900 pb-20">
 
-    <main class="p-4 space-y-6 pb-20">
-        <section class="bg-white rounded-xl p-5 shadow-sm border-l-4 border-red-500">
-            <h2 class="text-lg font-bold mb-3 flex items-center">⚠️ 필독 주의사항</h2>
-            <ul class="list-disc list-inside space-y-2 text-sm">
-                <li><b>전자담배 금지:</b> 베트남 전역 반입/사용 금지</li>
-                <li><b>수돗물 주의:</b> 양치 후 생수로 헹구는 것을 권장</li>
-                <li><b>안전 관리:</b> 오토바이가 많으므로 길 건널 때 주의</li>
-                <li><b>매너:</b> 사찰 방문 시 무릎 위 짧은 옷 지양</li>
-            </ul>
-        </section>
+    <header class="bg-blue-900 text-white p-5 sticky top-0 z-50 shadow-md flex justify-between items-center relative">
+        <div class="absolute inset-0 bg-blue-900 opacity-90 z-0"></div> <div class="relative z-10">
+            <h1 class="text-xl font-bold tracking-tight">영천 피플라이프</h1>
+            <p class="text-sm opacity-90">2026 나트랑 인센티브 트립</p>
+        </div>
+        <img src="https://image.incar.co.kr/main_new/images/common/logo.png" alt="INCAR Logo" class="h-8 relative z-10 opacity-70"> </header>
 
-        <section class="bg-white rounded-xl p-5 shadow-sm border-l-4 border-blue-500">
-            <h2 class="text-lg font-bold mb-3 flex items-center">🗣️ 필수 베트남어</h2>
-            <div class="grid grid-cols-2 gap-3 text-sm">
-                <div class="p-2 bg-blue-50 rounded"><b>안녕하세요</b><br>씬 짜오</div>
-                <div class="p-2 bg-blue-50 rounded"><b>감사합니다</b><br>까멍</div>
-                <div class="p-2 bg-blue-50 rounded"><b>얼마예요?</b><br>바오 니우?</div>
-                <div class="p-2 bg-blue-50 rounded"><b>고수 빼주세요</b><br>등 쪼 라우 텀</div>
+    <main class="safe-area-bottom">
+
+        <section class="bg-white p-5 mb-4 shadow-sm">
+            <div class="flex items-center gap-3 mb-4 border-b pb-3">
+                <i class="fas fa-hotel text-2xl text-blue-700"></i>
+                <h2 class="text-xl font-bold">우리의 안식처</h2>
+            </div>
+            <p class="text-lg font-bold text-blue-900 mb-1">멜리아 빈펄 깜란 리조트</p>
+            <p class="text-sm text-gray-600 mb-4">전 객실 3베드 프라이빗 풀빌라</p>
+            <div class="rounded-xl overflow-hidden shadow-inner">
+                <img src="https://raw.githubusercontent.com/username/repo/main/image_melia_vinpearl_exterior.jpg" alt="리조트 전경" class="w-full h-48 object-cover">
+            </div>
+            <div class="flex gap-2 mt-4 text-xs">
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full"><i class="fas fa-swimmer mr-1"></i>프라이빗 풀</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full"><i class="fas fa-shuttle-van mr-1"></i>빈원더스 셔틀</span>
+                <span class="bg-blue-50 text-blue-700 px-3 py-1 rounded-full"><i class="fas fa-spa mr-1"></i>프리미엄 스파</span>
             </div>
         </section>
 
-        <section class="bg-white rounded-xl p-5 shadow-sm border-l-4 border-green-500">
-            <h2 class="text-lg font-bold mb-3">🏨 우리 숙소</h2>
-            <p class="text-sm font-semibold text-green-700">멜리아 빈펄 깜란 리조트</p>
-            <p class="text-xs mt-1">3베드 풀빌라 (임직원 전용)</p>
-            <button class="mt-3 w-full py-2 bg-green-600 text-white rounded-lg text-sm" onclick="alert('구글 지도로 연결됩니다.')">지도 보기</button>
+        <section class="bg-white p-5 mb-4 shadow-sm">
+            <div class="flex items-center gap-3 mb-5 border-b pb-3">
+                <i class="fas fa-calendar-alt text-2xl text-yellow-600"></i>
+                <h2 class="text-xl font-bold">주요 일정 (3/5 ~ 3/9)</h2>
+            </div>
+            
+            <div class="space-y-6 relative">
+                <div class="absolute left-[16px] top-6 bottom-0 w-[2px] bg-gray-200 z-0"></div>
+
+                <div class="flex items-start gap-4 schedule-item relative z-10">
+                    <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center text-yellow-700 font-bold text-sm shrink-0">1</div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm text-gray-500">3/5 (목)</p>
+                        <p class="font-bold text-base mt-1">대구 출발 ✈️ 나트랑 도착 (TW037)</p>
+                        <p class="text-sm text-gray-600 mt-1">가이드 미팅 후 리조트 체크인</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 schedule-item relative z-10">
+                    <div class="w-8 h-8 rounded-full bg-yellow-400 flex items-center justify-center text-white font-bold text-sm shrink-0">2</div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm text-gray-500">3/6 (금)</p>
+                        <p class="font-bold text-base mt-1">리조트 휴식 및 시내 관광</p>
+                        <div class="grid grid-cols-2 gap-2 mt-3">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_nhatrang_beach.jpg" alt="나트랑 해변" class="h-24 w-full object-cover rounded-lg">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_po_nagar_towers.jpg" alt="포나가르 첨탑" class="h-24 w-full object-cover rounded-lg">
+                        </div>
+                        <p class="text-sm text-gray-600 mt-2">저녁: 무제한 씨푸드 뷔페 🦐</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 schedule-item relative z-10">
+                    <div class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-white font-bold text-sm shrink-0">3</div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm text-gray-500">3/7 (토)</p>
+                        <p class="font-bold text-base mt-1">이색적인 경험: 판랑 사막 투어</p>
+                        <div class="grid grid-cols-3 gap-2 mt-3">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_phan_rang_desert.jpg" alt="판랑 사막" class="h-20 w-full object-cover rounded-lg col-span-2">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_phan_rang_sheep.jpg" alt="양떼 목장" class="h-20 w-full object-cover rounded-lg">
+                        </div>
+                        <p class="text-sm text-gray-600 mt-2">사막 모래썰매 & 인증샷 타임 📸</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4 schedule-item relative z-10">
+                    <div class="w-8 h-8 rounded-full bg-yellow-600 flex items-center justify-center text-white font-bold text-sm shrink-0">4</div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm text-gray-500">3/8 (일)</p>
+                        <p class="font-bold text-base mt-1">자유 쇼핑 및 힐링 마사지</p>
+                        <div class="grid grid-cols-2 gap-2 mt-3 mb-2">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_dam_market.jpg" alt="담시장" class="h-24 w-full object-cover rounded-lg">
+                            <img src="https://raw.githubusercontent.com/username/repo/main/image_massage.jpg" alt="마사지" class="h-24 w-full object-cover rounded-lg">
+                        </div>
+                        <p class="text-sm text-gray-600">롯데마트, 담시장 방문 및 스파</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5 space-y-4">
+            <div class="bg-blue-50 p-5 rounded-2xl shadow-sm border border-blue-100">
+                <h3 class="font-bold text-lg text-blue-900 mb-4 flex items-center gap-2"><i class="fas fa-language"></i> 서바이벌 베트남어</h3>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
+                    <div class="flex justify-between border-b pb-1"><b>안녕하세요</b> <span class="text-blue-700">씬 짜오</span></div>
+                    <div class="flex justify-between border-b pb-1"><b>감사합니다</b> <span class="text-blue-700">까멍</span></div>
+                    <div class="flex justify-between border-b pb-1"><b>얼마예요?</b> <span class="text-blue-700">바오 니우?</span></div>
+                    <div class="flex justify-between border-b pb-1"><b>깎아주세요</b> <span class="text-blue-700">잠 자 디</span></div>
+                    <div class="flex justify-between border-b pb-1 col-span-2"><b>고수 빼주세요</b> <span class="text-blue-700 font-semibold">등 쪼 라우 텀</span></div>
+                </div>
+            </div>
+
+            <div class="bg-red-50 p-5 rounded-2xl shadow-sm border border-red-100">
+                <h3 class="font-bold text-lg text-red-900 mb-3 flex items-center gap-2"><i class="fas fa-exclamation-triangle"></i> 필수 주의사항</h3>
+                <ul class="list-disc list-inside text-sm text-red-950 space-y-1.5 marker:text-red-500">
+                    <li><b>전자담배 절대 금지:</b> 반입/사용 시 고액 벌금</li>
+                    <li><b>수돗물 주의:</b> 양치도 생수로 헹구기 권장</li>
+                    <li><b>소매치기 예방:</b> 가방은 앞으로 메고 핸드폰 주의</li>
+                    <li><b>환전:</b> 호텔보다 시내 금은방이 유리 (100달러권)</li>
+                </ul>
+            </div>
         </section>
     </main>
 
-    <nav class="fixed bottom-0 w-full bg-white border-t flex justify-around p-3 text-xs text-gray-500">
-        <div class="text-center">🏠<br>홈</div>
-        <div class="text-center text-blue-600 font-bold">📋<br>일정표</div>
-        <div class="text-center">📞<br>비상연락</div>
+    <nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-2 flex justify-around text-center z-50 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
+        <a href="#" class="flex flex-col items-center p-1.5 text-blue-900">
+            <i class="fas fa-home text-xl mb-1"></i>
+            <span class="text-xs font-bold">홈</span>
+        </a>
+        <a href="#schedule" class="flex flex-col items-center p-1.5 text-gray-500">
+            <i class="fas fa-map-marked-alt text-xl mb-1"></i>
+            <span class="text-xs">상세일정</span>
+        </a>
+        <a href="tel:+8412345678" class="flex flex-col items-center p-1.5 text-red-600">
+            <i class="fas fa-phone-alt text-xl mb-1 hover:animate-pulse"></i>
+            <span class="text-xs">가이드</span>
+        </a>
+        <a href="#map" class="flex flex-col items-center p-1.5 text-gray-500">
+            <i class="fas fa-map-pin text-xl mb-1"></i>
+            <span class="text-xs">리조트지도</span>
+        </a>
     </nav>
+
 </body>
 </html>
